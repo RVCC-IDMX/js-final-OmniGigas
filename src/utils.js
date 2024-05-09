@@ -2,7 +2,7 @@ export function displayDialogue(text, onDisplayEnd) {
     const dialogueUI = document.getElementById("textbox-container");
     const dialogue = document.getElementById("dialogue");
 
-    dialogueUI.style.diplay = "block";
+    dialogueUI.style.display = "block";
 
     let index = 0;
     let currentText = "";
